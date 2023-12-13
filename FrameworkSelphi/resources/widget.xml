@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facephi-widget-conf version="1.1"
+    color_warning_message="#EB184C"
+    font_warning_message="Poppins-SemiBold.ttf"
+    color_shutter="#00819880"
+    color_shutter_text="#FFFFFF"
+    font_shutter_text="Poppins-SemiBold.ttf"
+    font_shutter_size="35.0"
+    color_quality_low="#EB184C"
+    color_quality_good="#ffab41"
+    color_quality_excellent="#40b305"
+    color_progress_bar="#604FC6"
+    width_progress_bar="6.0">
+    
+
+    <view id="StartExtractor">
+        <background id="background"
+        top="#FFFFFF"
+        middle_top="#FFFFFF"
+        middle_bottom="#FFFFFF"
+        bottom="#FFFFFF"
+        mirror_mist_color="#FFFFFF80"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+
+        <text id="text"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+        
+        <camera id="camera" />
+        
+        <button id="button_start"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_start"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="16.0"
+        align="CENTER"
+        />
+        
+        <buttonImage id="button_info" value="InfoBlack.png"/>
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <image id="logo_medium" value=""/>
+    </view>
+
+    <view id="Extractor">
+        <background id="background"
+        top="#FFFFFF"
+        middle_top="#FFFFFF"
+        middle_bottom="#FFFFFF"
+        bottom="#FFFFFF"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <camera id="camera" />
+
+        <video id="extraction_video" mode="Normal"
+        value="PuppetBoyBeard.mp4, PuppetBoyGlasses.mp4, PuppetBoyNormal.mp4,PuppetGirlAfro.mp4, PuppetGirlGlasses.mp4, PuppetGirlNormal.mp4"
+        />
+        
+        <text id="text" mode="Normal"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+
+        <text id="warning" mode="Warning"
+        color="#EB184C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <image id="logo_medium" value=""/>
+    </view>
+
+    <view id="LivenessMove">
+        <background id="background"
+        top="#FFFFFF"
+        middle_top="#FFFFFF"
+        middle_bottom="#FFFFFF"
+        bottom="#FFFFFF"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <camera id="camera" />
+        
+        <animation id="liveness_move" name="ArrowProgressExpulsion_" ext="png" start="01" end="36"/>
+        <waiting id="waiting" color="#2B303C"/>
+        
+        <text id="liveness_move_text" mode="Normal"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+        
+        <text id="warning" mode="Warning"
+        color="#EB184C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <image id="logo_medium" value=""/>
+    </view>
+
+    <view id="ScanQR">
+        <background id="background"
+        top="#FFFFFF"
+        middle_top="#FFFFFF"
+        middle_bottom="#FFFFFF"
+        bottom="#FFFFFF"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <camera id="camera" />
+        
+        <text id="text" mode="Normal"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+        
+        <text id="warning" mode="Warning"
+        color="#EB184C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+
+        <fade id="qr_fade" target_color="#FFFFFF"/>
+
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <image id="logo_medium" value=""/>
+    </view>
+
+    <view id="Results">
+        <background id="background"
+        top="#FFFFFF"
+        middle_top="#FFFFFF"
+        middle_bottom="#FFFFFF"
+        bottom="#FFFFFF"
+        mirror_color="#f9f9f9"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="20.0"
+        />
+        
+        <results id="results"
+        background_color="#F9F9F9"
+        fontResult="Poppins-SemiBold.ttf"
+        fontResult_size="30.0"
+        fontQuality="Poppins-SemiBold.ttf"
+        fontQuality_size="17.0"
+        />
+        
+        <button id="button_repeat"
+        background="#ffffff"
+        decorator="#1D2C4D"
+        foreground="#604FC6"
+        content="button_repeat"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="16.0"
+        align="CENTER"
+        type="FLAT_WITH_BORDER"
+        radius="500"
+        />
+        
+        <button id="button_finish"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_finish"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="16.0"
+        align="CENTER"
+        type="FLAT_WITH_BORDER"
+        radius="500"
+        />
+        
+        <image id="logo_medium" value=""/>
+    </view>
+
+    <view id="Success">
+        <background id="background"
+        top="#FFFFFF"
+        middle_top="#FFFFFF"
+        middle_bottom="#FFFFFF"
+        bottom="#FFFFFF"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="video_success" value="checkExitoSobreGris.mp4"/>
+        
+        <image id="logo_large" value=""/>
+    </view>
+
+    <!-- Tutoriales -->
+    <view id="TutorialRegister1">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="tutorial_selfie1.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_done"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_ready"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="16.0"
+        align="CENTER"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="1"
+        page="1"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+    <view id="TutorialBlink1">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="tutorial1.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_skip"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_skip"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="18.0"
+        align="LEFT"
+        />
+        
+        <button id="button_next"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowNextWhite.png"
+        content_type="RESOURCE_ID"
+        align="RIGHT"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="3"
+        page="1"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+    <view id="TutorialBlink2">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="tutorial2.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_back"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowBackWhite.png"
+        content_type="RESOURCE_ID"
+        align="LEFT"
+        />
+        
+        <button id="button_next"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowNextWhite.png"
+        content_type="RESOURCE_ID"
+        align="RIGHT"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="3"
+        page="2"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+    <view id="TutorialBlink3">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="tutorial3.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_back"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowBackWhite.png"
+        content_type="RESOURCE_ID"
+        align="LEFT"
+        />
+        
+        <button id="button_done"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_ready"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="18.0"
+        align="RIGHT"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="3"
+        page="3"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+    <view id="TutorialMove1">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="tipsluz_fphi.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_skip"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_skip"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="18.0"
+        align="LEFT"
+        />
+        
+        <button id="button_next"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowNextWhite.png"
+        content_type="RESOURCE_ID"
+        align="RIGHT"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="3"
+        page="1"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+    <view id="TutorialMove2">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="tutorial2.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_back"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowBackWhite.png"
+        content_type="RESOURCE_ID"
+        align="LEFT"
+        />
+        
+        <button id="button_next"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowNextWhite.png"
+        content_type="RESOURCE_ID"
+        align="RIGHT"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="3"
+        page="2"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+    <view id="TutorialMove3">
+        <background id="background"
+        top="#ffffff"
+        middle_top="#ffffff"
+        middle_bottom="#ffffff"
+        bottom="#ffffff"
+        pagination_separator="#ffffff"
+        mirror_border_color="#ffffff"
+        mirror_border_width="0.0"
+        />
+        
+        <title id="title"
+        content="LogoMedium.png"
+        content_type="RESOURCE_ID"
+        />
+                
+        <video id="tip_video" value="liveness_move_left.mp4,liveness_move_right.mp4"/>
+        
+        <text id="tip"
+        color="#2B303C"
+        font="Poppins-SemiBold.ttf"
+        font_size="27.0"
+        />
+        
+        <text id="tip_detail"
+        color="#2B303C"
+        font="Poppins-Regular.ttf"
+        font_size="17.0"
+        />
+        
+        <button id="button_back"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="ArrowBackWhite.png"
+        content_type="RESOURCE_ID"
+        align="LEFT"
+        />
+        
+        <button id="button_done"
+        background="#604FC6"
+        decorator="#604FC6"
+        foreground="#FFFFFF"
+        content="button_ready"
+        content_type="TEXT_ID"
+        font="Poppins-SemiBold.ttf"
+        font_size="18.0"
+        align="RIGHT"
+        />
+        
+        <buttonImage id="button_exit" value="CrossBlack.png"/>
+        
+        <pagination id="pagination" steps="3"
+        page="3"
+        image_on="PagedOnWhite.png"
+        image_off="PagedOffWhite.png"
+        separation="16.0"
+        />
+    </view>
+
+</facephi-widget-conf>
+

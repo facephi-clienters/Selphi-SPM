@@ -24,6 +24,11 @@ typedef NS_ENUM(NSUInteger, FPhiWidgetLivenessMode) {
     LMLivenessNone = 0,
     
     /**
+     liveness move mode
+     */
+    LMLivenessMove = 2,
+    
+    /**
      liveness passive mode
      */
     LMLivenessPassive = 3,
@@ -86,6 +91,7 @@ typedef NS_ENUM(NSUInteger, FPhiWidgetLivenessMode) {
  Results of a extraction process.
  */
 @property (nonatomic) FPhiWidgetExtractionData *results;
+@property (nonatomic) FPBLivenessDiagnostic livenessDiagnostic;
 
 /**
  if enabled, returned images are cropped to face rectangle. True by default.
