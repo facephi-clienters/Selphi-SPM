@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/FPBExtractionResult.h</key>
 		<data>
-		071rM0q0TJVF3+myXPi28kiMh1Q=
+		i6Ybunrh7GBMRsoCyJbL4gMavoQ=
 		</data>
 		<key>Headers/FPBExtractor.h</key>
 		<data>
-		Iyoh/uJa2c1WMO86IsPx5Tg3O8Y=
+		9Zea9Q59f1vpUtLy52eZj6NDQjo=
 		</data>
 		<key>Headers/FPBExtractorConfigurationManager.h</key>
 		<data>
@@ -26,11 +26,15 @@
 		</data>
 		<key>Headers/FPBExtractoriOS.h</key>
 		<data>
-		a2x4wcgq45I4geyzzmouMgI4ltM=
+		nfTs08wfn0GsKP0Q4oGh4eD3zKs=
 		</data>
 		<key>Headers/FPBFinalDiagnostic.h</key>
 		<data>
 		QzP2EsUxmhKxqycfbLWiq7SK3rI=
+		</data>
+		<key>Headers/FPBGlassesDiagnostic.h</key>
+		<data>
+		cKT4P5vycfaCari7nKnA1LoBdbA=
 		</data>
 		<key>Headers/FPBImageQualityFilter.h</key>
 		<data>
@@ -60,6 +64,10 @@
 		<data>
 		ndxba5lnOYQLyxU/P0aD5L2D8Go=
 		</data>
+		<key>Headers/FPBOcclusionDiagnostic.h</key>
+		<data>
+		pcxpjxYUukfXtzrhW3cybF71OEE=
+		</data>
 		<key>Headers/FPBPatternQualityFilter.h</key>
 		<data>
 		euMS29ViJf7gWM7DFzaskfz8hq0=
@@ -74,11 +82,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ll9y19wzaCL5brDoVrUy6089CVs=
+		n85mmF70/EmFO1IiFNSJz3sZXiY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		nmB/c+NrUXxD0QCWxcb2fnUsg0g=
+		oJ7+HEG9BRiU0jSRDvcIIT+WMjs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -109,22 +117,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			071rM0q0TJVF3+myXPi28kiMh1Q=
+			i6Ybunrh7GBMRsoCyJbL4gMavoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			+d4bp4czQ7ueiL3jG6T84vf0Pa0ccrHMH3o6I0yvICE=
+			SQbQxEuJgROpk3q3E6LjJUepEoHl0zsOXs9BEtUuk/g=
 			</data>
 		</dict>
 		<key>Headers/FPBExtractor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iyoh/uJa2c1WMO86IsPx5Tg3O8Y=
+			9Zea9Q59f1vpUtLy52eZj6NDQjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8p/JJHQ71YA7QwMd0MKAnksRydJLNp2TV14jYF40DHI=
+			Fe5XETty7GsgAVnHUmyvb/LiqS6fgoEaiTVK5WlxT+U=
 			</data>
 		</dict>
 		<key>Headers/FPBExtractorConfigurationManager.h</key>
@@ -142,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a2x4wcgq45I4geyzzmouMgI4ltM=
+			nfTs08wfn0GsKP0Q4oGh4eD3zKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vDDfhzMCdlpMsdhIdbDwmWzPcNXQZQqSxgAKAeDP0oE=
+			wwGW1ZZqJH9Vq4gnT/1j/8gDRkrnwtfA52E6eA046qU=
 			</data>
 		</dict>
 		<key>Headers/FPBFinalDiagnostic.h</key>
@@ -158,6 +166,17 @@
 			<key>hash2</key>
 			<data>
 			olleEe9U8NqYf3l7XvwRqLCL9nhujzwblZh4fetgoUs=
+			</data>
+		</dict>
+		<key>Headers/FPBGlassesDiagnostic.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cKT4P5vycfaCari7nKnA1LoBdbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			PwdJaNyQyUaDfYg2mowPcM4pEdCMdYLqkaduWIkvbNs=
 			</data>
 		</dict>
 		<key>Headers/FPBImageQualityFilter.h</key>
@@ -237,6 +256,17 @@
 			mXkSc/rbQQHKN8AjKDlfrZKqYuUrBc5qOG+FYb8T21Q=
 			</data>
 		</dict>
+		<key>Headers/FPBOcclusionDiagnostic.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pcxpjxYUukfXtzrhW3cybF71OEE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lp943s2LDEuP6A2gKTOxg7q5xcVzP3zUeMm3s5S0AQY=
+			</data>
+		</dict>
 		<key>Headers/FPBPatternQualityFilter.h</key>
 		<dict>
 			<key>hash</key>
@@ -274,11 +304,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nmB/c+NrUXxD0QCWxcb2fnUsg0g=
+			oJ7+HEG9BRiU0jSRDvcIIT+WMjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			9+Abgbd+EvP9rgov0hZlOZgUtrLenPwm3V8wHwXb26g=
+			RjGUMcBUaERl6px7uLGNys8veUeeGDnd3JbrKYxFp9Y=
 			</data>
 		</dict>
 	</dict>

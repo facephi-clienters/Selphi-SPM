@@ -23,7 +23,7 @@ FOUNDATION_EXPORT const unsigned char FPBExtractoriOSVersionString[];
 #import "FPBExtractoriOS/FPBFinalDiagnostic.h"
 #import "FPBExtractoriOS/FPBImageQualityFilter.h"
 #import "FPBExtractoriOS/FPBLivenessDetectionPrecision.h"
-#import "FPBExtractoriOS/FPBLivenessDiagnostic.h"
+// #import "FPBExtractoriOS/FPBLivenessDiagnostic.h"
 #import "FPBExtractoriOS/FPBLivenessResult.h"
 #import "FPBExtractoriOS/FPBLivenessTimer.h"
 #import "FPBExtractoriOS/FPBLivenessTimerDiagnostic.h"

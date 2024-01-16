@@ -198,7 +198,7 @@
      </ul>
      @return Liveness result.
 */
--(FPBLivenessResult *)evaluateLiveness:(NSArray *)images withLivenessDiagnostic:(FPBLivenessTimerDiagnostic*)livenessTimerDiagnostic withTemplateReference:(NSData*)templateReference outError:(NSError **)outError;
+// -(FPBLivenessResult *)evaluateLiveness:(NSArray *)images withLivenessDiagnostic:(FPBLivenessTimerDiagnostic*)livenessTimerDiagnostic withTemplateReference:(NSData*)templateReference outError:(NSError **)outError;
 
 /**
  Initializes a liveness sequence stabilization.
@@ -227,28 +227,28 @@
  @param extractionOptions Extraction options.
  @param outError An error occurred.
  */
--(void)initLivenessHMCCSequence:(FPBExtractionOptions*)extractionOptions outError:(NSError **)outError;
+// -(void)initLivenessHMCCSequence:(FPBExtractionOptions*)extractionOptions outError:(NSError **)outError;
 
 /**
  Next liveness sequence evaluation process.
  @param outError An error occurred.
  @return Liveness result.
  */
--(FPBLivenessResult*)nextLivenessHMCCSequence:(NSError **)outError;
+// -(FPBLivenessResult*)nextLivenessHMCCSequence:(NSError **)outError;
 
 /**
  Next liveness image for sequence evaluation process.
  @param image Image.
  @param outError An error occurred.
  */
--(FPBExtractionResult*)nextLivenessHMCCImage:(UIImage *)image outError:(NSError **)outError;
+// -dir5e4(FPBExtractionResult*)nextLivenessHMCCImage:(UIImage *)image outError:(NSError **)outError;
 
 /**
  Evaluates liveness sequence process.
  @param livenessTimer Liveness timer.
  @param outError An error occurred.
  */
--(FPBExtractionResult*)evaluateLivenessHMCChallenge:(FPBLivenessTimer*)livenessTimer outError:(NSError **)outError;
+// -(FPBExtractionResult*)evaluateLivenessHMCChallenge:(FPBLivenessTimer*)livenessTimer outError:(NSError **)outError;
 
 /**
 Tokenize data.

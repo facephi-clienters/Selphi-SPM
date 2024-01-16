@@ -4,6 +4,8 @@
 #import "FPBFinalDiagnostic.h"
 #import "FPBLivenessDiagnostic.h"
 #import "FPBTemplateInfo.h"
+#import "FPBGlassesDiagnostic.h"
+#import "FPBOcclusionDiagnostic.h"
 
 /**
 	Contains the data obtained as a result of the extraction/detection process carried out in an image.
@@ -69,12 +71,12 @@
 	Liveness diagnostic for the image stream.
 	@see LivenessDiagnostic
 */
-@property (nonatomic, readonly) FPBLivenessDiagnostic livenessDiagnostic;
+// @property (nonatomic, readonly) FPBLivenessDiagnostic livenessDiagnostic;
 
 /**
  Sets liveness diagnostic.
  */
--(void)setLivenessDiagnostic:(FPBLivenessDiagnostic)livenessDiagnostic;
+// -(void)setLivenessDiagnostic:(FPBLivenessDiagnostic)livenessDiagnostic;
 
 /**
     Template info for the image stream.
@@ -115,5 +117,15 @@
  Gets the facial score diagnostic.
  */
 @property (nonatomic, readonly) int facialScoreDiagnostic;
+
+/**
+ Gets the glasses diagnostic.
+ */
+@property (nonatomic, readonly) FPBGlassesDiagnostic glassesDiagnostic;
+
+/**
+ Gets the occlusion diagnostic.
+ */
+@property (nonatomic, readonly) FPBOcclusionDiagnostic occlusionDiagnostic;
 
 @end
