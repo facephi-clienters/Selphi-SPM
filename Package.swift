@@ -9,25 +9,31 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Selphi-SPM",
-            targets: ["Selphi-SPM", "FPBExtractoriOS", "FPhiWidgetCore", "FPhiWidgetSelphi"]),
+            targets: ["Selphi-SPM", "FPhiWidgetCore", "FPhiWidgetSelphi"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
+        .package(url: "git@github.com:facephi-clienters/FPHIFPBExtractoriOS-SPM.git", from: "5.5.2"),
+        .package(url: "git@github.com:facephi-clienters/FPHISelphiResources-SPM.git", from: "1.2.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "Selphi-SPM",
-            dependencies: ["FPBExtractoriOS", "FPhiWidgetCore", "FPhiWidgetSelphi", .product(name: "FPhiZipZap", package: "SDK-ZipZap-SPM")],
-            resources: [.process("Resources/resources.zip")]),
+            dependencies: [
+                "FPhiWidgetCore",
+                "FPhiWidgetSelphi",
+                .product(name: "FPhiZipZap", package: "SDK-ZipZap-SPM"),
+                .product(name: "FPHISelphiResources-SPM", package: "FPHISelphiResources-SPM"),
+                .product(name: "FPHIFPBExtractoriOS-SPM", package: "FPHIFPBExtractoriOS-SPM")]),
 
                     
         .binaryTarget(name: "FPhiWidgetCore", path: "FrameworkSelphi/FPhiWidgetCore.xcframework"),
         .binaryTarget(name: "FPhiWidgetSelphi", path: "FrameworkSelphi/FPhiWidgetSelphi.xcframework"),
-        .binaryTarget(name: "FPBExtractoriOS", path: "FrameworkSelphi/FPBExtractoriOS.xcframework"),
+       
         
 
         
