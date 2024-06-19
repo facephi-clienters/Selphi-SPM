@@ -19,6 +19,7 @@
 
 // localize api
 -(void)loadTranslationFromString:(NSString *)str;
+-(BOOL)isTranslated:(NSString *)string;
 -(NSString *)translate:(NSString *)string;
 -(NSString *)translate:(NSString *)string alt:(BOOL)isAlternativeText;
 
