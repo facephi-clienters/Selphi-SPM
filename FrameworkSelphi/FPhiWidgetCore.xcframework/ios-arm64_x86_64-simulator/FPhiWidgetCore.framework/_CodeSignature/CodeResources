@@ -136,6 +136,10 @@
 		<data>
 		mlXyLqAlS5kiE5UHAWuFdkBOJgA=
 		</data>
+		<key>Headers/FPhiWidgetIADLib.h</key>
+		<data>
+		0joBnp2aB9+q/JzWz/C2Yf/5Ad8=
+		</data>
 		<key>Headers/FPhiWidgetProtocol.h</key>
 		<data>
 		O9owzVA5sYvYYDGYRdcFeKEhiLQ=
@@ -516,6 +520,17 @@
 			<key>hash2</key>
 			<data>
 			f5RUGjx/NSkKwuGHKDLeeepBXhY5u0my3yNS6WDKKhc=
+			</data>
+		</dict>
+		<key>Headers/FPhiWidgetIADLib.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0joBnp2aB9+q/JzWz/C2Yf/5Ad8=
+			</data>
+			<key>hash2</key>
+			<data>
+			flVyGXAziwhwDwnl3ups41yx95L0ZAjmDA4pN7JCzDs=
 			</data>
 		</dict>
 		<key>Headers/FPhiWidgetProtocol.h</key>
