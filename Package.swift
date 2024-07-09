@@ -17,6 +17,7 @@ let package = Package(
         .package(url: "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/FPHIFPBExtractoriOS-SPM.git", from: "5.5.2"),
         .package(url: "git@github.com:facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("5.13.2")),
+
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -27,7 +28,6 @@ let package = Package(
                 "FPhiWidgetCore",
                 "FPhiWidgetSelphi",
                 .product(name: "FPhiZipZap", package: "SDK-ZipZap-SPM"),
-                .product(name: "FPHISelphiResources-SPM", package: "FPHISelphiResources-SPM"),
                 .product(name: "FPHIFPBExtractoriOS-SPM", package: "FPHIFPBExtractoriOS-SPM")]),
 
                     
