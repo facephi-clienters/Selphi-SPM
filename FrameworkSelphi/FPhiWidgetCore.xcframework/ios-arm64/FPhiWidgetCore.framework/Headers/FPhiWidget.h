@@ -193,7 +193,7 @@ typedef NS_ENUM(NSUInteger, FPhiWidgetLivenessMode) {
 /**
  Generates the TemplateRaw from an image in NSData format. This NSData must be the representation of the image in either jpg or png format
 */
-+(NSData *)generateTemplateRawFromNSData:(NSData *)img;
++(NSData *)generateTemplateRawFromNSData:(NSData *)imgData;
 
 
 /**

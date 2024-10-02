@@ -102,7 +102,11 @@
 		</data>
 		<key>Headers/FPhiWidget.h</key>
 		<data>
-		qPdtPG1RMj4bccPzuAQHfX5Duuk=
+		0yK0khcj7XhIRH4rnQxEHOMn4hI=
+		</data>
+		<key>Headers/FPhiWidgetAdvTracking.h</key>
+		<data>
+		93FwoJDR5nddrU3t6iuVdhkU6wQ=
 		</data>
 		<key>Headers/FPhiWidgetCore.h</key>
 		<data>
@@ -136,10 +140,6 @@
 		<data>
 		mlXyLqAlS5kiE5UHAWuFdkBOJgA=
 		</data>
-		<key>Headers/FPhiWidgetIADLib.h</key>
-		<data>
-		0joBnp2aB9+q/JzWz/C2Yf/5Ad8=
-		</data>
 		<key>Headers/FPhiWidgetProtocol.h</key>
 		<data>
 		O9owzVA5sYvYYDGYRdcFeKEhiLQ=
@@ -155,6 +155,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		etfsZ5yXdzMbfSxG8k6XKBUSSZ0=
+		</data>
+		<key>PrivateHeaders/FPhiWidgetIADLib.h</key>
+		<data>
+		0joBnp2aB9+q/JzWz/C2Yf/5Ad8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -427,11 +431,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qPdtPG1RMj4bccPzuAQHfX5Duuk=
+			0yK0khcj7XhIRH4rnQxEHOMn4hI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hd+//vsAN1M5PVI62iNCDthywapgWBgOFfI0gcbi3NU=
+			tQHx8dqgFLAsO2ZZKzsRhDmmJnzDM2QZy8BUoYS9nVc=
+			</data>
+		</dict>
+		<key>Headers/FPhiWidgetAdvTracking.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			93FwoJDR5nddrU3t6iuVdhkU6wQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			M7EgdF+zfx7+F5FzWIGf9BV3p8YDn/QpqkoVrhP34g0=
 			</data>
 		</dict>
 		<key>Headers/FPhiWidgetCore.h</key>
@@ -522,17 +537,6 @@
 			f5RUGjx/NSkKwuGHKDLeeepBXhY5u0my3yNS6WDKKhc=
 			</data>
 		</dict>
-		<key>Headers/FPhiWidgetIADLib.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0joBnp2aB9+q/JzWz/C2Yf/5Ad8=
-			</data>
-			<key>hash2</key>
-			<data>
-			flVyGXAziwhwDwnl3ups41yx95L0ZAjmDA4pN7JCzDs=
-			</data>
-		</dict>
 		<key>Headers/FPhiWidgetProtocol.h</key>
 		<dict>
 			<key>hash</key>
@@ -564,6 +568,17 @@
 			<key>hash2</key>
 			<data>
 			EbUus+IrmvetAqz87l4A/oySjsNn8inda6tJdiw1R5Y=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FPhiWidgetIADLib.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0joBnp2aB9+q/JzWz/C2Yf/5Ad8=
+			</data>
+			<key>hash2</key>
+			<data>
+			flVyGXAziwhwDwnl3ups41yx95L0ZAjmDA4pN7JCzDs=
 			</data>
 		</dict>
 	</dict>
