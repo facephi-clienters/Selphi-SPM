@@ -104,10 +104,6 @@
 		<data>
 		0yK0khcj7XhIRH4rnQxEHOMn4hI=
 		</data>
-		<key>Headers/FPhiWidgetAdvTracking.h</key>
-		<data>
-		93FwoJDR5nddrU3t6iuVdhkU6wQ=
-		</data>
 		<key>Headers/FPhiWidgetCore.h</key>
 		<data>
 		UbQsevnsS+GeY4qjTpbJ0bKWMz0=
@@ -150,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ekhvL7KLxNNT7SWCnEZSTZUH1Ds=
+		iBKP80epAeyRPzUvCPEyqJ4rwb4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -436,17 +432,6 @@
 			<key>hash2</key>
 			<data>
 			tQHx8dqgFLAsO2ZZKzsRhDmmJnzDM2QZy8BUoYS9nVc=
-			</data>
-		</dict>
-		<key>Headers/FPhiWidgetAdvTracking.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			93FwoJDR5nddrU3t6iuVdhkU6wQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			M7EgdF+zfx7+F5FzWIGf9BV3p8YDn/QpqkoVrhP34g0=
 			</data>
 		</dict>
 		<key>Headers/FPhiWidgetCore.h</key>
