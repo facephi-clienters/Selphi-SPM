@@ -35,6 +35,26 @@ typedef NS_ENUM(NSUInteger, FPhiWidgetLivenessMode) {
 
 };
 
+/**
+ Widget orientation modes
+ */
+typedef NS_ENUM(NSUInteger, FPhiWidgetOrientation) {
+    FPhiWidgetOrientationFullSensor = 0,
+    FPhiWidgetOrientationFullSensorNoReverse = 1,
+    FPhiWidgetOrientationPortrait = 2,
+    FPhiWidgetOrientationLandscapeLeft = 3,
+    FPhiWidgetOrientationLandscapeRight = 4,
+    FPhiWidgetOrientationPortraitReverse = 5,
+    FPhiWidgetOrientationPortraitSensor = 6,
+    FPhiWidgetOrientationLandscapeSensor = 7,
+    FPhiWidgetOrientationLocked = 8,
+};
+
+typedef NS_ENUM(NSUInteger, FPhiWidgetExtractionDuration) {
+    FPhiWidgetExtractionDurationShort,
+    FPhiWidgetExtractionDurationMedium,
+    FPhiWidgetExtractionDurationLong,
+};
 
 /**
  User control object. Manages ipad and iphone cameras and delivery results from a extraction process.
@@ -143,6 +163,15 @@ typedef NS_ENUM(NSUInteger, FPhiWidgetLivenessMode) {
  */
 @property (nonatomic) BOOL cameraFlash;
 
+/**
+ Supported widget interface orientations. Default orientation: FPhiWidgetOrientationPortrait
+ */
+@property (nonatomic) FPhiWidgetOrientation preferredOrientation;
+
+/**
+ Sets the time it takes the widget to extract facial features: Default: FPhiWidgetExtractionDurationShort
+ */
+@property (nonatomic) FPhiWidgetExtractionDuration extractionDuration;
 
 /**
  Initialize a new user control object.

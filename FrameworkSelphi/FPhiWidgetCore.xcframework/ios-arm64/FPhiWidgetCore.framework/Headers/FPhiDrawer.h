@@ -35,7 +35,7 @@
 /*
  * setCanvasSize initialize canvas size.
  */
--(void)setCanvasSize:(float)width :(float)height;
+-(void)setCanvasSize:(float)width :(float)height :(UIDeviceOrientation)orientation;
 
 /*
  * drawer must return xml resourceId associated to state
