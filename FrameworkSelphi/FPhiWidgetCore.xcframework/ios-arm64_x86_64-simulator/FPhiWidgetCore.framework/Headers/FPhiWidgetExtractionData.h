@@ -1,7 +1,8 @@
 
 #import <Foundation/Foundation.h>
-#import <FPBExtractoriOS/FPBExtractoriOS.h>
 #import "FPhiWidgetExtractionRecord.h"
+
+#import <FPBExtractoriOS/FPBExtractoriOS.h>
 
 /**
  Data provided by the extraction process
