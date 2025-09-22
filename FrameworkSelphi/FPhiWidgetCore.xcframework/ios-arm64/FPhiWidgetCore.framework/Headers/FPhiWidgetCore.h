@@ -18,4 +18,5 @@ FOUNDATION_EXPORT const unsigned char FPhiWidgetCoreVersionString[];
 #import "FPhiWidgetCore/FPhiWidgetResourceManager.h"
 #import "FPhiWidgetCore/FPhiDrawer.h"
 #import "FPhiWidgetCore/FPhiWidgetEasing.h"
+#import "FPhiWidgetCore/FPhiCamera.h"
 

@@ -44,6 +44,11 @@ Best image cropped based on the FacialScoreDiagnostic
 
 
 /**
+ IADBundle
+ */
+@property (nonatomic) NSData *iadBundle;
+
+/**
  Statistics in JSON format
  */
 @property (nonatomic) NSString *statistics;

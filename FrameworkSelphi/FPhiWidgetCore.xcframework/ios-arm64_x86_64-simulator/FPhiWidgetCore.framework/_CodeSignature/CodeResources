@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FPhiCamera.h</key>
+		<data>
+		IQ5VDtCuZKy0WtwxhOd4qWW0ZVc=
+		</data>
 		<key>Headers/FPhiDrawer.h</key>
 		<data>
 		Tt1kun5IJAO0XZo5AnmzD0MneEE=
 		</data>
 		<key>Headers/FPhiWidget.h</key>
 		<data>
-		32IYOahqwVOA7K4vC6eqyI3k6MI=
+		NCWmnrRJemqVdq3ncgLRMfc0cKM=
 		</data>
 		<key>Headers/FPhiWidgetCore.h</key>
 		<data>
-		UbQsevnsS+GeY4qjTpbJ0bKWMz0=
+		kk5MzQkrNwd3PD12YGrOCRkNnCg=
 		</data>
 		<key>Headers/FPhiWidgetEasing.h</key>
 		<data>
@@ -26,7 +30,7 @@
 		</data>
 		<key>Headers/FPhiWidgetExtractionData.h</key>
 		<data>
-		GJy/aMqu1cVKL+BsQbqadhAY5BE=
+		oyTyL7v4kbfp20Q+FF3g+PmVNm4=
 		</data>
 		<key>Headers/FPhiWidgetExtractionRecord.h</key>
 		<data>
@@ -54,21 +58,24 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iBKP80epAeyRPzUvCPEyqJ4rwb4=
+		Vyp/CcPNQ9SlOR7BBmAs3Dk5B2U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		etfsZ5yXdzMbfSxG8k6XKBUSSZ0=
+		j+w/fEsVHmbmZnRt61mTdcvE9Z0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FPhiCamera.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s2I4fowacsmPGK0qGtBuCH40rwrkWpf285r5FzDgJb0=
+			</data>
+		</dict>
 		<key>Headers/FPhiDrawer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Tt1kun5IJAO0XZo5AnmzD0MneEE=
-			</data>
 			<key>hash2</key>
 			<data>
 			3ajgzzHNnCOBvV7eMZtMxS4DfsT1Mv3zm1zuo0ti9C8=
@@ -76,32 +83,20 @@
 		</dict>
 		<key>Headers/FPhiWidget.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			32IYOahqwVOA7K4vC6eqyI3k6MI=
-			</data>
 			<key>hash2</key>
 			<data>
-			lUG0/FYoVQ72bavO19NbnITkg4WWxG16Q//dsbp2wt4=
+			6ydgTkkBHj7CRzrOeIc45yCtmsQBlswSoWjvV//qCls=
 			</data>
 		</dict>
 		<key>Headers/FPhiWidgetCore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UbQsevnsS+GeY4qjTpbJ0bKWMz0=
-			</data>
 			<key>hash2</key>
 			<data>
-			+sAKwtz0ZlRKA9vwzphF7LyxmAsPBEdgml95d+MYLd0=
+			9pH7/eT1M1E4gRKSA5CF1DZx70VtG5jrZxUESUd18us=
 			</data>
 		</dict>
 		<key>Headers/FPhiWidgetEasing.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vltYL6bCvO5Fk+Id5g6diWEx1FQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			DQrduL1bX5ZDeLlKhnTeIdETQ12vKedaKRSPosqByFM=
@@ -109,10 +104,6 @@
 		</dict>
 		<key>Headers/FPhiWidgetError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cxeHRwdByQyDO+iggFRz8GFDnNE=
-			</data>
 			<key>hash2</key>
 			<data>
 			v7frhhMoY/1o9vNHxiSJQUDojiY+dWJh1oAJ4kDB4Ks=
@@ -120,21 +111,13 @@
 		</dict>
 		<key>Headers/FPhiWidgetExtractionData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GJy/aMqu1cVKL+BsQbqadhAY5BE=
-			</data>
 			<key>hash2</key>
 			<data>
-			YyyQwKITg4xRHIIHTIKL6VtaYYxAWk1SNGbyc9AN5SA=
+			Z6Ckg+29pf5vjJZn0XMoLQkVyoyG3qeN56Co0FvfyPI=
 			</data>
 		</dict>
 		<key>Headers/FPhiWidgetExtractionRecord.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XGSgB/GaOzzk4EZpIAv/wt/rMcQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			GYZAHoW6LM5eH0nyiT8LfnupJfIOD4mt2sD8eyQctdg=
@@ -142,10 +125,6 @@
 		</dict>
 		<key>Headers/FPhiWidgetFrameObj.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MocTVNFPlYJpADoo4smPMgKCj0M=
-			</data>
 			<key>hash2</key>
 			<data>
 			Tnaqjcdr/ovltZpsncKCoxEz+gWbanl1G9AyESmnte8=
@@ -153,10 +132,6 @@
 		</dict>
 		<key>Headers/FPhiWidgetGraph.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ydIHV4kMA7Db/GNn2EBOTuEJjl4=
-			</data>
 			<key>hash2</key>
 			<data>
 			WWWAz5xrxmbMt78km69WNXJKi3iQg57zVApIa9LJ270=
@@ -164,10 +139,6 @@
 		</dict>
 		<key>Headers/FPhiWidgetGraphProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mlXyLqAlS5kiE5UHAWuFdkBOJgA=
-			</data>
 			<key>hash2</key>
 			<data>
 			f5RUGjx/NSkKwuGHKDLeeepBXhY5u0my3yNS6WDKKhc=
@@ -175,10 +146,6 @@
 		</dict>
 		<key>Headers/FPhiWidgetProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			O9owzVA5sYvYYDGYRdcFeKEhiLQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			lHkHrMvG0bHI358rPFWtNC6Tc2gBmvAqdCfHjMoPzrE=
@@ -186,10 +153,6 @@
 		</dict>
 		<key>Headers/FPhiWidgetResourceManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ImWDlSwQx6TdlGGrHMZM77HZipQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			vyaeF1EMnW53sTHn7+7DpqlNvFFjkQS0vdEg18Klo8c=
@@ -197,13 +160,9 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			etfsZ5yXdzMbfSxG8k6XKBUSSZ0=
-			</data>
 			<key>hash2</key>
 			<data>
-			EbUus+IrmvetAqz87l4A/oySjsNn8inda6tJdiw1R5Y=
+			gdVa02CTn0e64c4SUVt7Bg/iosyM4CbuNr917lFqTRo=
 			</data>
 		</dict>
 	</dict>

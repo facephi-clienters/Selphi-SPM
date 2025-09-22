@@ -180,6 +180,11 @@ typedef NS_ENUM(NSUInteger, FPhiWidgetExtractionDuration) {
 - (id)initWithFrontCameraIfAvailable :(bool)frontCameraIfAvailable resources:(NSString *)resourcesPath delegate:(id)delegate error:(NSError **)error;
 
 /**
+ Set license string for licensed flavor. Not used for unlicensed flavors.
+ */
+- (void)setLicense:(NSString *)license;
+
+/**
  Start a full extraction process. When process was finished ExtractionFinished method from protocol FPhiUCProtocol is executed.
  */
 - (void)StartExtraction;
