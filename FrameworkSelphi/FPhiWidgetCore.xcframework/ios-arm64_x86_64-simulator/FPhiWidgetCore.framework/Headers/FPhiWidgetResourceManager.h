@@ -12,10 +12,12 @@
 
 @interface FPhiWidgetResourceManager : NSObject<NSXMLParserDelegate>
 
-- (id)init:(NSString *)resourcesPath;
+- (id)init:(NSString *)resourcesPath :(UIViewController *)controller;
 - (void)setLocale:(NSString *)locale;
 
 -(float)pixelsToPt:(float)pixels;
+
+-(void)setUseSDKCustomization:(BOOL)flag;
 
 // localize api
 -(void)loadTranslationFromString:(NSString *)str;
@@ -29,6 +31,8 @@
 - (NSString *) getLanguage;
 - (UIColor *) getSetupColor:(NSString *)nodePath;
 - (UIColor *) getSetupColor:(NSString *)nodePath isOptional:(bool)optional;
+-(UIColor *)getSDKColor:(NSString *)key;
+-(NSString *)getSDKColorKey:(NSString *)path;
 - (int) getSetupContentType:(NSString *)nodePath;
 - (int) getSetupAlign:(NSString *)nodePath;
 - (NSString *) getSetupNode:(NSString *)nodePath;
@@ -40,6 +44,8 @@
 -(void) clearResourcesCache;
 -(UIImage *)getImage:(NSString *)resourceName;
 -(UIImage *)getImage:(NSString *)resourceName cache:(bool)cache;
+-(NSData *)getRawFile:(NSString *)resourceName;
+-(NSData *)getRawFile:(NSString *)resourceName cache:(bool)cache;
 -(NSString *)getVideoUrl:(NSString *)resourceName;
 - (NSString *) getFontName:(NSString *)nodePath;
 
