@@ -53,7 +53,7 @@ typedef void(^onMetadataBlock)(NSString *metadataId, NSObject *data);
 -(void)reset;
 -(int)getFaceStabilizedStatus;
 +(BOOL)providesStabilization;
-
+-(void)setFocusWithMode:(AVCaptureFocusMode)focusMode exposeWithMode:(AVCaptureExposureMode)exposureMode atDevicePoint:(CGPoint)point monitorSubjectAreaChange:(BOOL)monitorSubjectAreaChange enableTorch:(BOOL)enableTorch;
 @end
 
 #endif /* FPhiCamera_h */
