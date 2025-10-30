@@ -17,6 +17,7 @@
 
 -(float)pixelsToPt:(float)pixels;
 
+-(BOOL)isUseSDKCustomization;
 -(void)setUseSDKCustomization:(BOOL)flag;
 
 // localize api
