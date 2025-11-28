@@ -33,6 +33,11 @@
 -(id) init:(FPhiWidgetResourceManager *)rm :(FPhiWidgetLivenessMode)livenessMode :(bool)qrFlag :(bool)tutorialFlag;
 
 /*
+ * getClearColor gets the color that will be used as apps background color.
+ */
+-(UIColor *)getClearColor;
+
+/*
  * setCanvasSize initialize canvas size.
  */
 -(void)setCanvasSize:(float)width :(float)height :(UIDeviceOrientation)orientation;
@@ -86,7 +91,12 @@
 /*
  * isValidExtractionResult must return if face asociated with extractionResult is inside the target area asociated with faces.
  */
--(bool)isValidExtractionResult:(CGRect)face :(CGPoint)leftEye :(CGPoint)rightEye :(int)cameraWidth :(int)cameraHeight;
+-(bool)isValidExtractionResult:(CGRect)face :(CGPoint)leftEye :(CGPoint)rightEye :(int)cameraWidth :(int)cameraHeight :(int)rotation;
+
+/*
+ * getExpectedFaceRegion returns the expected region where the face must be in orden to complete the extraction
+ */
+-(CGRect)getExpectedFaceRegion:(int)cameraWidth :(int)cameraHeight :(int)rotation;
 
 /*
  * getCameraZoom returns the camera zoom level relative to the screen size

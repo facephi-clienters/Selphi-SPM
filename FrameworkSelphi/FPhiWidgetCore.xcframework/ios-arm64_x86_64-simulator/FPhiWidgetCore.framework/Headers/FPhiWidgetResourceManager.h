@@ -33,7 +33,6 @@
 - (UIColor *) getSetupColor:(NSString *)nodePath;
 - (UIColor *) getSetupColor:(NSString *)nodePath isOptional:(bool)optional;
 -(UIColor *)getSDKColor:(NSString *)key;
--(NSString *)getSDKColorKey:(NSString *)path;
 - (int) getSetupContentType:(NSString *)nodePath;
 - (int) getSetupAlign:(NSString *)nodePath;
 - (NSString *) getSetupNode:(NSString *)nodePath;
