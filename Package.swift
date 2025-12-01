@@ -16,7 +16,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/FPHIFPBExtractoriOS-SPM.git", from: "5.5.2"),
-        .package(url: "git@github.com:facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("5.20.0")),
+        .package(url: "git@github.com:facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("5.20.1")),
 
     ],
     targets: [
