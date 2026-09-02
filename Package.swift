@@ -18,9 +18,9 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.3.0")),
+        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.4.0")),
         .package(url: "https://github.com/facephi-clienters/FPBTokenizer-SPM.git", .exactItem("4.0.4")),
-        .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMajor(from: "0.5.7"))
+        .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMinor(from: "0.5.7"))
 
     ],
     targets: [
@@ -36,11 +36,11 @@ let package = Package(
                 .product(name: "FPHILicenseManager-SPM", package: "FPHILicenseManager-SPM")]),
 
         .binaryTarget(name: "FPhiWidgetCore",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiFrameworks/6.3.0/FPhiWidgetCore.zip",
-        checksum: "5be8d56118966292542e65b7965b63641007075c31243f27a3c24826c9677c00"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiFrameworks/6.4.0/FPhiWidgetCore.zip",
+        checksum: "1bdd2176384d55b49e5cbe0afde25da8312e55392b937a7f67e4b45ee2587d14"),
         .binaryTarget(name: "FPhiWidgetSelphi",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiFrameworks/6.3.0/FPhiWidgetSelphi.zip",
-        checksum: "77ad3b77f5ce5857b9ffc129ca475376b4b980e4347c56e3d1c69779ee92efa8")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiFrameworks/6.4.0/FPhiWidgetSelphi.zip",
+        checksum: "4efff7a65ea579eb396d3cb8e7d8ea11e01a21fd09e8ff6490adad7761e53c10")
         
        
         
